@@ -1,0 +1,10 @@
+2024-06-20 19:54:36.153 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-20 19:54:36.199 | INF | ==================================================================================
+ 2024-06-20 19:54:36.207 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-20 19:54:36.226 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-20 19:54:44.799 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-06-20 19:54:45.169 | INF | "Verify invalid credential message is displaying"
+ 2024-06-20 19:54:45.197 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-20 19:54:53.352 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-20 19:55:00.264 | INF | "Verify home page is dispalyed"
+ 
