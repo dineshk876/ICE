@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ICE_Desktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03f55cfbebdcc31cfc694eb0f6c49aeac69a88fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20d2e5f4c86b46a5824ba69d28255b2483174879")]
 [assembly: System.Reflection.AssemblyProductAttribute("ICE_Desktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ICE_Desktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

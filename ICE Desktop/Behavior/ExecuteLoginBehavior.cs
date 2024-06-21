@@ -26,6 +26,10 @@ namespace BDD_AutomationTests.Behavior
         {
             homePage.HomePageDisplayed();
         }
+        public void Perform3()
+        {
+            homePage.Logout();
+        }
         public class InvalidLoginBehavior
         {
             private LoginPage loginPage;

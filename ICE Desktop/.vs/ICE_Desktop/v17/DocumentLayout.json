@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "D:\\BDD_AutomationTests\\ICE Desktop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kumard\\Downloads\\UntitledTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\features\\login.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:features\\login.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\steps\\loginstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:steps\\loginstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\behavior\\executeloginbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:behavior\\executeloginbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\steps\\loginstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:steps\\loginstepdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|d:\\bdd_automationtests\\ice desktop\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B86C62-D60E-4F87-A28C-5A935FA96142}|ICE_Desktop.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +33,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UntitledTest.cs",
+              "DocumentMoniker": "C:\\Users\\kumard\\Downloads\\UntitledTest.cs",
+              "ToolTip": "C:\\Users\\kumard\\Downloads\\UntitledTest.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T09:00:39.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "D:\\BDD_AutomationTests\\ICE Desktop\\Pages\\HomePage.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.cs",
+              "ToolTip": "D:\\BDD_AutomationTests\\ICE Desktop\\Pages\\HomePage.cs*",
+              "RelativeToolTip": "Pages\\HomePage.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:24:31.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.feature",
+              "DocumentMoniker": "D:\\BDD_AutomationTests\\ICE Desktop\\Features\\Login.feature",
+              "RelativeDocumentMoniker": "Features\\Login.feature",
+              "ToolTip": "D:\\BDD_AutomationTests\\ICE Desktop\\Features\\Login.feature",
+              "RelativeToolTip": "Features\\Login.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALmSURBVDhPrVPtS1NRGP/du\u002B3uxde5Od\u002B1bL4URmFBhREKqURZH3r9EkSfgj4U\u002BKUPfYhAhMCC6EP1BwTVtxBBgrQQwjJ0URbiSsumzKmsbfdud/d6O\u002BeZS1cQEnvOfnfP\u002BZ3zPOec50UAk\u002B571wzJoXEVS8oCDDY2IwIbLnspVNlM877LvRCu3u02gqYRdO7dTWRpnofvZMI/acdE/CFsjf0WIkEMjk0Q49FaIFy4c9LoaitHo7ueSFVP/Da3mp30r\u002BoRiIIFNosL0cQccWmRTFZ8Dk2R/mwoAJG0LIoYVPzItdqgaDHCqqFDW9XYjeyo9ZwhuHOb4czZgWrXUcZbCQLMtJfbcHsO7kvUDY2eyAPMh0m0o7zwIEwmG0KRCYIoWqCvJrEUfY98\u002BxZCQ9l5FgL3mlUqyrqR5E/ODLjVnI\u002BinJ2oLupAKOojBCPvsCJ/wmJkHDnWSkJEmUFSj2ZWBFP/iqGsBjEdfIxvy4PsSSpB02PshnEWCgWR\u002BAyB63ZL8ZrVumQ/Keu1lhKruRBez2lUOdshCGaCQyoj8DVV\u002B0lw5e6C09HIzDPt6Yac4rHggz9lOTaJ2aUBePKaCTxJNksR6krOsqerhI\u002BBB/i\u002B8pwduCEHTBcLJA8Smpr2SrGaD48wLkyFzJHUZcQSAYb51CZ\u002BNCsZLvyCcWbPUSAVQzjXc8rY2hRC27Z9tMFhdlAhmEQTJMlGnJbUWbco3A1b2Rh2A7ImY8g/SrMvH9zZT4pw/f4N4/XXFyiuTBIhSnHU1jjQUdGOGOsCLqOBcfh/hFmHZJ7PbxxXDATnJJq31B5OVfXLN6\u002BM2cVU0z8Ze4jjrWWwsU4ZnpokLjxXgs6mE/BNT2JxJUQcbzveFPU1XhzYvoe4rtZj6ym62HOJRxtJzyjqKtx462NJUby09vTmo8x2\u002BofQxv7hfqNvoJeIqoYYFvz5aCrZj9tXbm3aUVqynhRyGJVlJOI6we8rwCHvkf\u002B6HQD8AnF2O2/bC\u002BBFAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-06-21T08:24:41.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "D:\\BDD_AutomationTests\\ICE Desktop\\Pages\\LoginPage.cs",
               "RelativeDocumentMoniker": "Pages\\LoginPage.cs",
@@ -39,33 +91,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginStepDefinition.cs",
               "DocumentMoniker": "D:\\BDD_AutomationTests\\ICE Desktop\\Steps\\LoginStepDefinition.cs",
               "RelativeDocumentMoniker": "Steps\\LoginStepDefinition.cs",
               "ToolTip": "D:\\BDD_AutomationTests\\ICE Desktop\\Steps\\LoginStepDefinition.cs",
               "RelativeToolTip": "Steps\\LoginStepDefinition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA7AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T07:33:27.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ExecuteLoginBehavior.cs",
               "DocumentMoniker": "D:\\BDD_AutomationTests\\ICE Desktop\\Behavior\\ExecuteLoginBehavior.cs",
               "RelativeDocumentMoniker": "Behavior\\ExecuteLoginBehavior.cs",
               "ToolTip": "D:\\BDD_AutomationTests\\ICE Desktop\\Behavior\\ExecuteLoginBehavior.cs",
               "RelativeToolTip": "Behavior\\ExecuteLoginBehavior.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwCkAAAABAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wB4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T07:28:40.899Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             }
           ]
         }

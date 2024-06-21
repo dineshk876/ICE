@@ -4,6 +4,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace BDD_AutomationTests.Pages
 {
@@ -20,7 +23,11 @@ namespace BDD_AutomationTests.Pages
         By submit = By.XPath("//input[@id='btnSubmit']");
         By Frame = By.XPath("//iframe[@id='iframeMain']");
         By homePageAssertion = By.CssSelector("td:nth-child(2) > table tr:nth-child(2) > td");
-
+        By table = By.XPath("//form[@id='frmToolbar']/descendant::table[1]/tbody[1]");
+        By tbr = By.XPath("//body[1]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]");
+        By tbd = By.XPath("//body[1]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]");
+        By logout_tab = By.XPath("//div[@id='Log Off']");
+        By signout = By.LinkText("Log Off and Close Window");
 
         public void HomePageDisplayed()
         {
@@ -40,6 +47,25 @@ namespace BDD_AutomationTests.Pages
             string _valid = _assert.Text;
             Assert.That(_valid, Is.EqualTo("User:sunquest"), "error");
         }
-        
+
+        public void Logout()
+        {
+            Thread.Sleep(4000);
+            IWebElement _tbl= driver.FindElement(table);
+           IList <IWebElement> _tbr = _tbl.FindElements(tbr);
+            foreach (IWebElement row in _tbr)
+            {
+                IList<IWebElement> _tbd = row.FindElements(tbd);
+                foreach (IWebElement cell in _tbd)
+                {
+                    if (cell.Text == "Log Off and Close Window")
+                    {
+                        cell.Click();
+                    }
+                }
+            }
+           /* driver.FindElement(logout_tab).Click();
+            driver.FindElement(signout).Click();*/
+        }
     }
 }

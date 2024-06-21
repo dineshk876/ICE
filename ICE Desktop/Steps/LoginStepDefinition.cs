@@ -37,5 +37,11 @@ namespace BDD_AutomationTests.Steps
         {
             new InvalidLoginBehavior(loginPage).Perform2();
         }
+        [Then(@"Logout the user")]
+        public void ThenLogoutTheUser()
+        {
+            new ExecuteLoginBehavior(homePage).Perform3();
+        }
+
     }
 }
