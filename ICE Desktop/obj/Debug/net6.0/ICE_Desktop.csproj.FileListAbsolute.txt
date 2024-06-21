@@ -194,3 +194,4 @@ D:\BDD_AutomationTests\ICE Desktop\obj\Debug\net6.0\ref\ICE_Desktop.dll
 D:\BDD_AutomationTests\ICE Desktop\bin\Debug\net6.0\WebDriver.Support.dll
 D:\BDD_AutomationTests\ICE Desktop\bin\Debug\net6.0\Elasticsearch.Net.dll
 D:\BDD_AutomationTests\ICE Desktop\bin\Debug\net6.0\Nest.dll
+D:\BDD_AutomationTests\ICE Desktop\obj\Debug\net6.0\ICE_Desktop.sourcelink.json

@@ -1,0 +1,19 @@
+2024-06-21 13:18:38.431 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-21 13:18:38.452 | INF | ==================================================================================
+ 2024-06-21 13:18:38.456 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-21 13:18:38.483 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-21 13:18:56.283 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-06-21 13:18:56.408 | INF | "Verify invalid credential message is displaying"
+ 2024-06-21 13:18:56.419 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-21 13:19:03.899 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-21 13:19:25.994 | INF | "Verify home page is dispalyed"
+ 2024-06-21 13:45:55.453 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-21 13:45:55.479 | INF | ==================================================================================
+ 2024-06-21 13:45:55.484 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-21 13:45:55.515 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-21 13:46:02.482 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-06-21 13:46:02.612 | INF | "Verify invalid credential message is displaying"
+ 2024-06-21 13:46:02.629 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-21 13:46:10.033 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-21 13:46:15.683 | INF | "Verify home page is dispalyed"
+ 

@@ -30,7 +30,7 @@ namespace BDD_AutomationTests.Pages
         {
             IWebElement _err = driver.FindElement(invalidAccountMessage);
             string _er = _err.Text;
-            Assert.That(_er, Is.EqualTo(_er), "error");
+            Assert.That(_er, Is.EqualTo("Login failed."), "error");
         }
     }
 }

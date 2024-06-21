@@ -2,6 +2,7 @@ using BDD_AutomationTests.Behavior;
 using BDD_AutomationTests.Pages;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
+using static BDD_AutomationTests.Behavior.ExecuteLoginBehavior;
 
 namespace BDD_AutomationTests.Steps
 {
@@ -18,16 +19,23 @@ namespace BDD_AutomationTests.Steps
             homePage = new HomePage(driver);
         }
 
-        [Then(@"Verify home page is dispalyed")]
-        public void ThenVerifyhomepageisdispalyed()
+        [Given(@"Login with credentials (.*) and (.*)")]
+        public void WhenLoginWithValidCredentials(string userName, string password)
         {
-            new ValidLoginBehavior(homePage).Perform();
+            new ExecuteLoginBehavior(loginPage, userName, password).Perform();
+
+        }
+
+        [Then(@"Verify home page is dispalyed")]
+        public void ThenVerifyHomePageIsDispalyed()
+        {
+            new ExecuteLoginBehavior(homePage).Perform1();
         }
 
         [Then(@"Verify invalid credential message is displaying")]
         public void ThenVerifyInvalidCredentialMessageIsDisplaying()
         {
-           new InvalidLoginBehavior(loginPage).Perform();
+            new InvalidLoginBehavior(loginPage).Perform2();
         }
     }
 }
